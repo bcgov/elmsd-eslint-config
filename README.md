@@ -29,13 +29,13 @@ npm install elmsd-eslint-config --save-dev
 
 ### Setup the configuration file
 
-Using the [JavaScript file format](https://eslint.org/docs/user-guide/configuring/configuration-files#configuration-file-formats) supported by [ESlint](https://eslint.org/), you'll need to add `"elmsd-eslint-config"` in the `"extends"` value of the configuration. Here's an example using a `.eslintrc.js` file.
+Using the [JavaScript file format](https://eslint.org/docs/user-guide/configuring/ßconfiguration-files#configuration-file-formats) supported by [ESlint](https://eslint.org/), you'll need to add `"elmsd"` in the `"extends"` value of the configuration. Here's an example using a `.eslintrc.js` file.
 
 #### Using the full configuration with JavaScript, TypeScript and React
 
 ```js
 module.exports = {
-    extends: ["elmsd-eslint-config"]
+    extends: ["elmsd"]
 }
 ```
 
@@ -43,7 +43,7 @@ module.exports = {
 
 ```js
 module.exports = {
-    extends: ["elmsd-eslint-config/js"]
+    extends: ["elmsd/js"]
 }
 ```
 
@@ -51,7 +51,7 @@ module.exports = {
 
 ```js
 module.exports = {
-    extends: ["elmsd-eslint-config/js", "elmsd-eslint-config/jsx"]
+    extends: ["elmsd/js", "elmsd/jsx"]
 }
 ```
 
@@ -59,7 +59,7 @@ module.exports = {
 
 ```js
 module.exports = {
-    extends: ["elmsd-eslint-config/ts"]
+    extends: ["elmsd/ts"]
 }
 ```
 
@@ -67,7 +67,7 @@ module.exports = {
 
 ```js
 module.exports = {
-    extends: ["elmsd-eslint-config/ts", "elmsd-eslint-config/tsx"]
+    extends: ["elmsd/ts", "elmsd/tsx"]
 }
 ```
 

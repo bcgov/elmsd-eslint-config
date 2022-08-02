@@ -1,5 +1,5 @@
 {
-    "name": "elmsd-eslint-config",
+    "name": "eslint-config-elmsd",
     "license": "Apache-2.0",
     "author": "Sid McLaughlin <sid.mclaughlin@gov.bc.ca>",
     "description": "A modern ESLint configuration for JavaScript, TypeScript and React which includes the Airbnb style guide, jsx-a11y and Prettier.",
