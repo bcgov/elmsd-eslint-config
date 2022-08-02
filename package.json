@@ -1,0 +1,72 @@
+{
+    "name": "elmsd-eslint-config",
+    "license": "Apache-2.0",
+    "author": "Sid McLaughlin <sid.mclaughlin@gov.bc.ca>",
+    "description": "A modern ESLint configuration for JavaScript, TypeScript and React which includes the Airbnb style guide, jsx-a11y and Prettier.",
+    "homepage": "https://github.com/bcgov/elmsd-eslint-config",
+    "version": "0.0.0",
+    "private": true,
+    "files": [
+        "LICENSE",
+        "README.md",
+        "index.js",
+        "internal/*",
+        "js.js",
+        "jsx.js",
+        "ts.js",
+        "tsx.js"
+    ],
+    "keywords": [
+        "eslint",
+        "prettier",
+        "javascript",
+        "typescript",
+        "react",
+        "jsx-a11y"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bcgov/elmsd-eslint-config.git"
+    },
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.31.0",
+        "@typescript-eslint/parser": "^5.31.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.3.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0"
+    },
+    "peerDependencies": {
+        "eslint": "^8.0.0",
+        "prettier": "^2.0.0",
+        "react": "^16.8.0 || ^17.0.0",
+        "typescript": "^4.0.0"
+    },
+    "peerDependenciesMeta": {
+        "react": {
+            "optional": true
+        },
+        "typescript": {
+            "optional": true
+        }
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.24.1",
+        "@types/react": "^16.0.0",
+        "eslint": "^8.20.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "prettier": "^2.7.1",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.0",
+        "typescript": "^4.7.4"
+    }
+}
