@@ -16,5 +16,12 @@ module.exports = {
                 tsx: "never"
             }
         ]
-    }
+    },
+    overrides: [
+        {
+            plugins: ["jest"],
+            extends: ["plugin:jest/recommended"],
+            files: ["**/*.test.{js,jsx,ts,tsx}"]
+        }
+    ]
 }
